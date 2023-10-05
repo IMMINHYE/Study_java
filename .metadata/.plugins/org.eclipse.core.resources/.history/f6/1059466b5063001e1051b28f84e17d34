@@ -1,0 +1,25 @@
+package chapter4;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int ranking = 1;
+		char medalCorol;
+		switch(ranking) {
+		case 1 : 
+			medalCorol = 'G';
+			break;
+		case 2 : 
+			medalCorol = 'S';
+			break;
+		case 3 : 
+			medalCorol = 'A';
+			break;
+		default : 
+			medalCorol = 'A';
+		}
+		System.out.println(ranking + "등 메달의 색깔은 " + medalCorol + "입니다.");
+	}
+
+}

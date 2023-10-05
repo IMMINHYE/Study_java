@@ -1,0 +1,14 @@
+package chapter2;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//4번
+		int num1 = 10;
+		double num2 = 2.0;
+		int sum = (int)(num1 + num2);
+		System.out.println(sum);
+	}
+
+}
