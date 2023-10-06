@@ -1,0 +1,15 @@
+package chapter4;
+
+import java.util.Scanner;
+
+public class SwitchCaseTest2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		int player = scanner.nextInt();
+		int computer = (int)(Math.random()*3)+1;
+		//가위바위보 게임의 if문 작성
+	}
+
+}

@@ -1,0 +1,56 @@
+package chapter4;
+
+import java.util.Scanner;
+
+public class Exercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Q1. 사칙연산 수행 프로그램
+		// if-else문
+//		int num1 = 10;
+//		int num2 = 2;
+//		Scanner scanner = new Scanner(System.in);
+//		String operator = scanner.next();
+//		if (operator == "+") {
+//			System.out.println(num1 + num2);
+//		} else if (operator == "-") {
+//			System.out.println(num1 - num2);
+//		} else if (operator == "X") {
+//			System.out.println(num1 * num2);
+//		} else if (operator == "/") {
+//			System.out.println(num1 / num2);
+//		}
+		
+		// Q2. 구구단 - 짝수 단만 출력
+//		int i;
+//		int j;
+//		for (i=1; i<=9; i++) {
+//			for (j=1; j<=9; j++) {
+//				if (i % 2 == 1)
+//					continue;
+//				System.out.println(i + " X " + j + "=" + i*j);
+//			}
+//		}
+		
+		// Q3. 구구단 - 단보다 곱하는 수가 작거나 같은 경우까지만 출력
+//		int i;
+//		int j;
+//		for (i=1; i<=9; i++) {
+//			for (j=1; j<=9; j++) {
+//				if (i < j)
+//					break;
+//				System.out.println(i + " X " + j + "=" + i*j);
+//			}
+//		}
+		
+		// Q4. 반복문 사용 - 피라미드
+		int i;
+		int j;
+		for (i=1; i<=7; i++) {
+			if (i % 2 == 0)
+				continue;
+			System.out.println("*");
+		}
+	}
+}

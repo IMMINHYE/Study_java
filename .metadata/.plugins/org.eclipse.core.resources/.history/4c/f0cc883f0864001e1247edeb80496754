@@ -1,0 +1,25 @@
+package chapter4;
+
+import java.util.Scanner;
+
+public class Exercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Q1. 사칙연산 수행 프로그램
+		// if-else문
+		int num1 = 10;
+		int num2 = 2;
+		Scanner scanner = new Scanner(System.in);
+		String operator = scanner.next();
+		if (operator == "+") {
+			System.out.println(num1 + num2);
+		} else if (operator == "-") {
+			System.out.println(num1 - num2);
+		} else if (operator == "X") {
+			System.out.println(num1 * num2);
+		} else if (operator == "/") {
+			System.out.println(num1 / num2);
+		}
+	}
+}

@@ -1,0 +1,44 @@
+package chapter4;
+
+import java.util.Scanner;
+
+public class RPC {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		// nextInt()나 next()로 키보드 값 받아오기
+		int player = scanner.nextInt();
+		// 컴퓨터의 랜덤값 생성
+		int computer = (int)(Math.random()*3)+1;
+		// 가위바위보 게임의 if문 작성
+		// 가위=0, 바위=1, 보=2
+		if (player == 0) {
+			if (computer == 0 ) {
+				System.out.println("player와 비겼습니다");
+			} else if (computer == 1 ) {
+				System.out.println("player가 졌습니다");
+			} else if (computer == 2 ) {
+				System.out.println("player가 이겼습니다");
+			}
+		} else if (player == 1) {
+			if (computer == 0 ) {
+				System.out.println("player가 이겼습니다");
+			} else if (computer == 1 ) {
+				System.out.println("player와 비겼습니다");
+			} else if (computer == 2 ) {
+				System.out.println("player가 졌습니다");
+			}
+		} else if (player == 2) {
+			if (computer == 0 ) {
+				System.out.println("player가 졌습니다");
+			} else if (computer == 1 ) {
+				System.out.println("player가 이겼습니다");
+		} else if (computer == 2 ) {
+			System.out.println("player와 비겼습니다");
+			}
+		}
+		// if문 종료
+		System.out.println("computer : " + computer);
+	}
+}
