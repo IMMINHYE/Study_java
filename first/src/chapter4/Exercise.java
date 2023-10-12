@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Exercise {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// Q1. 사칙연산 수행 프로그램
 		// if-else문
 		System.out.println("1번");
@@ -22,7 +21,7 @@ public class Exercise {
 			System.out.println(num1 / num2);
 		}
 		
-//		 Q2. 구구단 - 짝수 단만 출력
+		// Q2. 구구단 - 짝수 단만 출력
 		System.out.println("2번");
 		int i;
 		int j;
@@ -34,7 +33,7 @@ public class Exercise {
 			}
 		}
 		
-//		 Q3. 구구단 - 단보다 곱하는 수가 작거나 같은 경우까지만 출력
+		// Q3. 구구단 - 단보다 곱하는 수가 작거나 같은 경우까지만 출력
 		System.out.println("3번");
 		for (i=1; i<=9; i++) {
 			for (j=1; j<=9; j++) {
@@ -79,16 +78,17 @@ public class Exercise {
 		}
 		
 		// Q6. 윤년 계산하기
-		// 1. 4로 나누어 떨어지면 윤년
+		// 1. 4로 나누어 떨어지면 윤년입니다.
 		// 2. 100으로 나누어 떨어지면 윤년이 아닙니다.
 		// 3. 400으로 나누어 떨어지면 윤년입니다.
 		// 4. Scanner 클래스로 숫자를 입력받아 윤년인지 판단
 		System.out.println("6번");
 		Scanner sc = new Scanner(System.in);
 		int year = sc.nextInt();
-		if (year % 4 == 0) {
+		if ((year % 4 == 0 && year % 100 > 0) || (year % 400 == 0)) {
 		System.out.println(year + "년은 윤년 입니다.");
-		} 
+		} else {
 		System.out.println(year + "년은 윤년이 아닙니다.");
+		}
 	}
 }
