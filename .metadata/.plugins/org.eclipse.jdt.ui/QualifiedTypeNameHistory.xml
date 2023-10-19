@@ -4,4 +4,24 @@
     <fullyQualifiedTypeName name="thisex.BirthDay"/>
     <fullyQualifiedTypeName name="staticex.Student3"/>
     <fullyQualifiedTypeName name="singleton.Company"/>
+    <fullyQualifiedTypeName name="Practice2.Customer"/>
+    <fullyQualifiedTypeName name="Practice2.StarCafe"/>
+    <fullyQualifiedTypeName name="practice3.CardCompany"/>
+    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
+    <fullyQualifiedTypeName name="arraylist.Student"/>
+    <fullyQualifiedTypeName name="inheritance.Customer"/>
+    <fullyQualifiedTypeName name="inheritance.VIPcustomer"/>
+    <fullyQualifiedTypeName name="polymorphism.GoldCustomer"/>
+    <fullyQualifiedTypeName name="polymorphism.VIPcustomer"/>
+    <fullyQualifiedTypeName name="polymorphism.Customer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="polymorphism.AnimalTest1"/>
+    <fullyQualifiedTypeName name="polymorphism.Human"/>
+    <fullyQualifiedTypeName name="polymorphism.Tiger"/>
+    <fullyQualifiedTypeName name="polymorphism.Eagle"/>
+    <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
+    <fullyQualifiedTypeName name="abstractex.Computer"/>
+    <fullyQualifiedTypeName name="abstractex.DeskTop"/>
+    <fullyQualifiedTypeName name="abstractex.NoteBook"/>
+    <fullyQualifiedTypeName name="abstractex.MyNoteBook"/>
 </qualifiedTypeNameHistroy>
