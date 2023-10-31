@@ -11,7 +11,26 @@ class Student {
 		this.studentName = studentName;
 	}
 	
-	public
+	@Override
+	public String toString() {
+		return studentId + " : " + studentName;
+	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Student) {
+			Student student = (Student)obj;
+			if(this.studentId == student.studentId) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	@Override
+	public int hashCode() {
+		return Integer.parseInt(studentId);
+	}
 }
 
 public class StudentTest {
@@ -26,3 +45,5 @@ public class StudentTest {
 		System.out.println(set);
 	}
 }
+
+//[400 : 정약용, 100 : 홍길동, 200 : 강감찬, 300 : 이순신]
